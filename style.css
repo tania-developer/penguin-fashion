@@ -131,3 +131,34 @@ line-height: 80px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
+
+.col-3 {width: 25%;}
+.col-md-7 {width: 58.33%;}
+
+@media only screen and (max-width: 768px) {
+    
+    [class*="col-"] {
+      width: 100%;
+      margin: 20px 0;
+     }
+  }
+
+  @media (max-width: 768px){
+    header{
+        padding-left: 10%;
+        height: 930px;
+    }
+    .third-sec img{
+        width: 500px;
+        padding: 10%;
+    }
+    .exclusive{
+        height: 500px;
+    }
+    .testimonial-sec{
+        margin-left: 100px;
+        margin-right: 50px;
+     }
+  }
+
+  
