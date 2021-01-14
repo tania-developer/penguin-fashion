@@ -1,3 +1,7 @@
+header, .section-title{
+    font-family: 'Bebas Neue', cursive;
+}
+
 .custom-margin{
     margin-bottom: 100px;
 }
@@ -26,6 +30,18 @@ header{
     align-items: center;
     
     justify-content: space-around;
+}
+.banner h1{
+    font-weight: 500;
+font-size: 80px;
+line-height: 80px;
+
+}
+.banner p{
+    color: #3E3E3E;
+}
+.text-color{
+    color:#FABE4C;
 }
 .banner img{
     width: 440.72px;
@@ -107,4 +123,11 @@ header{
 .foot-sec{
     height: 300px;
     background-color: #85A019;
+}
+
+.card-body h5{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
